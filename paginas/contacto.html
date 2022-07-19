@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <header class="header">
+        
+        <a href="../index.html" class="header_letra"><img class="header__imagen" src="../imagenes/descarga.png" alt="logo copa vino" width="100px" height="100px"></a>
+        
+        <a href="#abierto" class="header__menu">
+            <span class="jam jam-menu"></span>
+        </a>
+        
+        <nav class="header__nav__enlaces" id="abierto">
+            <a href="../index.html" class="header_letra">Inicio</a>
+            <a href="./contacto.html" class="header_letra">Contacto</a>
+            <a href="./Sobre-nosotros.html" class="header_letra">Sobre nosotros</a>
+            <a href="./Productos.html" class="header_letra">Productos</a>
+            <a href="./Preguntas-frecuentes.html" class="header_letra">FAQ</a>
+            <div  class="cruz" >
+            <a href="#cerrado" >
+                ❌
+             </a>
+            </div>
+           
+        </nav>
+    </header>
+
+    <main>
+        <section class="section__contacto">
+            <article class="contacto__padre">
+                <h2 class="contacto__titulo"> ¿Tenés alguna sugerencia?</h2>
+                <h3 class="contacto__titulo">Por favor, llená el siguiente formulario</h3>
+
+                <!-- <form action=""></form> method="" enctype="" eso son cosas del backend -->
+
+                <div>
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" id="Nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+
+                <div>
+                    <label for="">Email:</label>
+                    <input type="Email" id="Email" name="Email" placeholder="ejemplo@ejemplo.com" required>
+                </div>
+
+                <div>
+                    <label for="">Teléfono</label>
+                    <input type="number" id="telefono" placeholder="Ingrese su teléfono" required>
+                </div>
+
+
+                <div>
+                    <h3>¿Conoces nuestros vinos?</h3>
+                    <label for="">Si</label>
+                    <input type="radio" name="vinos" value="si">
+                    <label for="">No</label>
+                    <input type="radio" name="vinos" value="no">
+                </div>
+
+                <div>
+                    <h3>Contanos qué sucede</h3>
+                    <textarea name="Comentario" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <label for="">Estoy de acuerdo con los términos y condiciones</label>
+                    <input type="checkbox" name="terminos y condiciones" value="estoy de acuerdo">
+                </div>
+
+                <div>
+                    <button class="button">Enviar</button>
+                </div>
+
+            </article>
+
+            
+            <!--No se me envia cuando apreto enviar, por que? pregunta de clase-->
+            </form>
+
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h3 class="footer__titulo">También estamos en</h3>
+        <nav class="footer__enlaces">
+            <a class="footer__enlaces__hijos" href="http://www.instagram.com/trapichearg" target="_blank"><span
+                    class="jam jam-instagram"></span></a>
+            <a class="footer__enlaces__hijos" href="http://www.facebook.com" target="_blank"><span
+                    class="jam jam-facebook"></span></a>
+            <a class="footer__enlaces__hijos" href="http://wa.me/1168734304" target="_blank"><span
+                    class="jam jam-whatsapp"></span></a>
+        </nav>
+
+        <span class="footer__span">Derechos reservados Trapiche S.A.</span>
+    </footer>
+
+</body>
+
+</html>
