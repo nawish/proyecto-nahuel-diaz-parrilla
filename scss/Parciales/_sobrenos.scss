@@ -1,0 +1,119 @@
+.section__nosotros {
+    height: 100%;
+    width: 100%;
+    
+    text-align: center;
+}
+
+.nuestra-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    border: solid;
+    background-color: wheat;
+    border-radius: 10px;
+
+
+
+}
+
+.cont2 {
+    background-color: transparent;
+    max-width: 100%;
+}
+
+.nuestra-historia h1 {
+    display: flex;
+    text-transform: uppercase;
+    
+    
+  
+    padding: 2rem;
+    text-align: justify;
+    font-weight: bolder;
+    color: rgb(1, 1, 1);
+    
+    border-radius: 10px;
+
+}
+
+.nuestra-historia p {
+    text-transform: none;
+    text-align: center;
+    /* width: 600px; */
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.imagenee {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 1000px;
+    border: solid rgba(0, 0, 0, 0.593);
+    background-color: rgba(7, 7, 7, 0.253);
+    padding: 2rem;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
+
+.image1 {
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.image3 {
+    order: -1;
+
+}
+
+.row2{
+    margin-top: 5%;
+}
+
+.mapa {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    border: solid black;
+    background-color: wheat;
+    margin-top: 10%;
+    padding: 2rem;
+    margin-bottom: 10%;
+    
+    border-radius: 13px;
+
+}
+
+.mapa h1 {
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    height: 150px;
+    padding: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(1, 1, 1);
+    background-color: wheat;
+}
+
+.mapa iframe {
+    border: solid 5px rgba(3, 3, 3, 0.123);
+    margin-bottom: 5%;
+    flex-wrap: wrap;
+    height: 600px;
+    width: auto;
+}
