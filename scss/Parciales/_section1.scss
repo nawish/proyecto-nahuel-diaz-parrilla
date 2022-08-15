@@ -6,12 +6,13 @@
 }
 
 .titulo1 {
-    font-weight: 800;
+    font-weight: 600;
     margin-bottom: 80px;
     font-size: 40px;
     background-color: rgba(167, 166, 170, 0.199);
     width: auto;
     height: 100px;
+    padding: 1rem;
 }
 
 
@@ -31,13 +32,7 @@
     
 }
 
-.parrafo1 {
-    color: black;
-    font-weight: bolder;
-    text-align: justify;
-    font-size: 23px;
-    align-items: center;
-}
+
 .row {
     display: flex;
     
@@ -57,13 +52,14 @@
 
 
 .titulo2 {
-font-weight: 1000;
+font-weight: 600;
 margin-bottom: 80px;
-font-size: 60px;
+font-size: 40px;
 background-color: rgba(167, 166, 170, 0.199);
 width: 105%;
 height: 100px;
 text-align: center;
+padding: 1rem;
 }
 
 
@@ -103,11 +99,13 @@ text-align: center;
     font-weight: 1000
 }
 
+
+
 .p-3 {
     color: black;
     font-weight: bolder;
     text-align: justify;
-    font-size: 23px;
+    font-size: 18px;
     align-items: center;
 }
 
@@ -123,5 +121,5 @@ text-align: center;
     margin-top: 5%;
     width: 100%;
     margin-bottom: 10%;
-    height: 430px;
+    height: 43px;
 }

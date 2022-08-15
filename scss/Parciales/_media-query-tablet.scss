@@ -2,7 +2,7 @@
 
 
     .header {
-        /* max-width: auto; */
+       
         max-height: 80px;
     }
 
@@ -165,7 +165,7 @@
 
     .nuestra-historia p {
         text-transform: none;
-        text-align: center;
+        text-align: justify;
         width: 375px;
         font-weight: bolder;
         letter-spacing: 4px;
@@ -173,9 +173,8 @@
     }
 
     .section2__nosotros {
-        margin-top: 0px;
         margin-right: 0px;
-
+        width: 85%;
     }
 
 
@@ -213,7 +212,7 @@
         margin-bottom: 5%;
         flex-wrap: wrap;
         height: 600px;
-        width: 90%;
+        width: 99%;
     }
 
     .tituloo {

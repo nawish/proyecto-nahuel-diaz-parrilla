@@ -10,7 +10,8 @@
     text-align: center;
     
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.747), 0 6px 20px 0 rgba(0, 0, 0, 0.715);
-    background-color: rgba(10, 10, 10, 0.808);
+    background: rgb(67,44,82);
+    background: radial-gradient(circle, rgba(67,44,82,1) 5%, rgba(93,8,79,1) 61%, rgba(110,32,96,1) 100%);
     
     border-radius: 15px;
     display: flex;
@@ -37,3 +38,4 @@
     font-weight: bold;
 
 }
+

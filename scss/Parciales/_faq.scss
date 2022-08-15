@@ -1,6 +1,4 @@
 .section__faq {
-
-    background-color: rgba(204, 210, 212, 0.404);
     margin-top: 140px;
     height: 600px;
     width: 100%;
@@ -15,22 +13,20 @@
     border-radius: 10px;
     font-size: 20px;
 
-
 }
 
 .accordion-body{
     font-size: 25px;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: rgba(98, 128, 131, 0.271);
+    color: black;
 }
 
 
-.accordion-button {
+.acordion-propio {
     font-size: 25px;
     width: 100%;
-    background-color: black;
-    color: white;
+    
 }
 
 
