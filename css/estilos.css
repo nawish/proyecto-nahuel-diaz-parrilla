@@ -389,22 +389,24 @@ main {
     width: 35px;
     height: 35px; }
   .header__nav__enlaces {
-    display: none;
-    background-color: rgba(133, 87, 12, 0.654);
+    display: block;
+    background-color: rgba(8, 8, 9, 0.734);
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     z-index: 100000;
     width: 50%;
     height: auto;
     border-radius: 10px;
-    margin-top: 80px; }
+    margin-top: 80px;
+    transition: right 1s; }
   .cruz {
     display: block; }
   .header__menu {
     display: block; }
   .header__nav__enlaces:target {
-    display: block; }
+    display: block;
+    right: 0; }
   .section1 {
     display: flex;
     flex-direction: column;
