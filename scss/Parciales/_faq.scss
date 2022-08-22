@@ -19,13 +19,20 @@
     font-size: 25px;
     width: 100%;
     background-color: rgba(98, 128, 131, 0.271);
-    color: black;
+    color: white;
 }
 
+.accordion-item {
+    color: white;
+    background-color: rgba(42, 38, 38, 0.703);
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+}
 
 .acordion-propio {
     font-size: 25px;
     width: 100%;
+    background-color: rgb(35, 32, 32);
+    color: white;
     
 }
 

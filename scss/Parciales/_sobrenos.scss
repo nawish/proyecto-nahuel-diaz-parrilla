@@ -28,55 +28,24 @@
 .nuestra-historia h1 {
     display: flex;
     text-transform: uppercase;
-
-
-
     padding: 2rem;
     text-align: justify;
     font-weight: bolder;
     color: rgb(1, 1, 1);
-
     border-radius: 10px;
+    margin-top: 6%;
 
 }
 
 .nuestra-historia p {
     text-transform: none;
-    text-align: center;
-    width: 600px;
+    text-align: justify;
+    width: 90%;
     font-weight: bolder;
     letter-spacing: 2px;
 }
 
 
-// .imagenee {
-
-//     display: flex;
-//     flex-wrap: wrap;
-//     flex-direction: row;
-//     align-items: center;
-//     justify-content: space-evenly;
-//     width: 70%;
-//     height: 1000px;
-//     border: solid rgba(0, 0, 0, 0.593);
-//     background-color: rgba(7, 7, 7, 0.253);
-//     padding: 2rem;
-//     margin-left: 200px;
-//     border-radius: 10px;
-// }
-
-
-// .image1 {
-//     order: 1;
-//     display: flex;
-//     flex-wrap: wrap;
-
-// }
-
-// .image3 {
-//     order: -1;
-
-// }
 
 .row2 {
     margin-top: 5%;
